@@ -29,7 +29,7 @@ function App() {
         }
         <footer className='w-100 h-24 pt-3'>
           <div className='flex justify-center'>
-            <img src="/public/footer-logo.png" alt="logo facultad" />
+            <img src="/footer-logo.png" alt="logo facultad" />
           </div>
         </footer>
       </div>
