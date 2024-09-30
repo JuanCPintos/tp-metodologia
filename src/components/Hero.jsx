@@ -26,7 +26,7 @@ const Hero = ({button, setButton}) => {
           </div>
         </div>
         <div className="hidden sm:inline">
-          <img src="./src/assets/home-frame.png" alt="imagen home" />
+          <img src="/public/home-frame.png" alt="imagen home" />
         </div>
       </div>
     </>
