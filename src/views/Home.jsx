@@ -11,6 +11,10 @@ const Home = () => {
             <p className="text-justify indent-6 pt-2">
               Estas herramientas nos permitirá forjar nuestro espíritu crítico y posicionarnos profesionalmente mediante los análisis que pondrán en juego el pensamiento complejo, razonado y fundamentado, utilizando las técnicas y los métodos que nos servirán para explorar, describir, analizar y/o explicar científicamente los problemas de la realidad, y poder comunicarlos como parte de un mismo proceso cuyo producto será distinto de aquel que no posea dichas características.
             </p>
+            <h4 className="text-center text-xl roboto-medium py-2 text-[#005BB3]">Sobre Nosotros</h4>
+            <p className="text-justify indent-6 pt-2">
+            Somos “Los Pioneros del conocimiento” un grupo de estudiantes de la carrera Contador Público y queremos compartir con ustedes los talleres que formaron parte nuestro proceso hasta concluir con nuestra investigación.
+            </p>
           </div>
         </section>
       </div>

@@ -5,43 +5,114 @@ const Taller1 = () => {
       <div className="w-100 sm:px-28 p-0">
         <section className="w-100">
           <div className="w-100 px-4 flex flex-col items-center">
-            <h4 className="text-center text-xl roboto-medium py-2 text-[#005BB3]">La Cuarta Revolución</h4>
+            <h4 className="text-center text-xl roboto-medium py-2 text-[#005BB3]">Técnicas de fichajes</h4>
             <p className="text-justify indent-6">
-              La Cuarta Revolución Industrial, impulsada por la inteligencia artificial, la robótica y la automatización, está transformando el mercado laboral. Los expertos coinciden en que los trabajos se diversificarán y mutarán, algunas labores desaparecerán y otros emergerán generando nuevas oportunidades. No solo generará cambios en las estructuras organizacionales de las empresas ya que también se demandará perfiles profesionales más acordes a las necesidades de la nueva realidad.
+              Este taller tenía como objetivo principal:
             </p>
             <p className="text-justify indent-6 pt-2">
-              La Cuarta Revolución Industrial ha cambiado la forma en que trabajamos, mucha gente trabaja desde sus casas, siempre y cuando tengan conexión, pueden trabajar desde cualquier lado y ser totalmente productivos.
+              1.Identificar diferentes clases de fuentes de información y confeccionar fichas con la información recolectada.
             </p>
             <p className="text-justify indent-6 pt-2">
-              En este sentido, las nuevas tecnologías que se incorporan en los trabajos hacen que sea cada vez más necesario estar todo el tiempo aprendiendo si se quiere aprovechar nuevas oportunidades que la tecnología ofrece en el mercado laboral.
-
+              En este taller aprendimos a buscar fuentes de información y a usar técnicas de fichaje para contar con ellas cuando fuera necesario.
             </p>
-            <h4 className="text-center text-xl roboto-medium py-2 text-[#005BB3]">Ficha de contenido</h4>
+            <h4 className="text-center text-xl roboto-medium py-2 text-[#005BB3]">Que es el fichaje:</h4>
             <p className="text-justify indent-6 pt-2">
-              Contextualizando la nota publicada por la Editorial Clarin, confeccionada la misma en el año 2022 y sabiendo que allí nos encontrábamos transitando la vuelta a la normalidad luego de la cuarentena, observamos que ésta hace referencia a que la tecnología está reconfigurando el mundo del trabajo, impulsando cambios significativos en la forma en que se trabaja y se organizan las empresas.
-              Diversos factores influyen en esta reconfiguración laboral, que junto con la aceleración digital de los últimos años a contribuido en gran medida a eso. Citando algunos factores tenemos:
+              Técnica por la cual se construye un instrumento que nos permite guardar en forma escrita, de manera económica, sencilla, lo más completa posible, la información que será necesaria y utilizada a lo largo de toda la investigación
+            </p>
+            <p className="text-justify text-xl indent-6 pt-4 text-[#005BB3]">
+            Clases de fichaje:
             </p>
             <ul className="list-disc w-3/4">
               <li>
                 <p className="indent pt-2">
-                <span className="roboto-bold">Entornos cada vez más híbridos:</span> […] Un esquema de <span className="roboto-bold">flexworking</span> que combina la presencialidad en la oficina con el trabajo desde casa, será un pilar clave en la reconfiguración del mundo laboral. […]
+                  FICHAS BIBLIOGRAFICAS O INDICES: por autores o por materias
                 </p>
               </li>
               <li>
                 <p className="indent pt-2">
-                <span className="roboto-bold">Tecnologías para procesos mas sustentables:</span> […] La tecnología aplicada en el ámbito laboral para la optimización y mejor gestión de los procesos organizacionales también será fundamental en esta transformación. “El mundo corporativo estará muy abocado en la reducción de la huella de carbono, y la tecnología adquiere un rol protagónico en hacer esto posible. Implementar soluciones sustentables que procuren el ahorro recursos será el horizonte de las compañías del mañana. […]
+                  FICHA DE CONTENIDO: textual
                 </p>
               </li>
               <li>
                 <p className="indent pt-2">
-                <span className="roboto-bold">Los robots llegaron para quedarse:</span> […] Las máquinas inteligentes no están aquí para quitarles puestos de trabajo a las personas, <span className="roboto-bold">sino para ayudarlas a ser más productivas</span>. En el futuro veremos que las personas trabajarán, cada vez más, junto a un robot, máquina o sistema de Inteligencia Artificial. […]
+                  FICHA DE DOCUMENTACION: de resumen o se síntesis
                 </p>
               </li>
             </ul>
-            <p className="text-justify text-xl indent-6 pt-4">
-              Adaptarse a la nueva realidad y entender cómo el mundo laboral se esta reconfigurando es clave si tomamos consciencia del rol que podría cumplir la tecnología en este escenario cambiante.
-            </p>
+            <h4 className="text-center text-xl roboto-medium py-2 text-[#005BB3]">Modelo de ficha</h4>
 
+            <p className="text-justify text-xl indent-6 text-[#005BB3]">
+              Anverso
+            </p>
+            <ul className="list-disc w-3/4">
+              <li>
+                <p className="indent pt-2">
+                  Autor: apellido/s, nombre/s
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Año de publicación:
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Titulo: Libro,  Revista, Capitulo
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Número de Edición
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Editorial
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Lugar de edición
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Paginas
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Origen de la información: ej. Biblioteca de la facultad de Ciencias Económicas
+                </p>
+              </li>
+            </ul>
+
+            <p className="text-justify text-xl indent-6 pt-4 text-[#005BB3]">
+              Reverso
+            </p>
+            <ul className="list-disc w-3/4">
+              <li>
+                <p className="indent pt-2">
+                  Resumes
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Sintesis
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Observación
+                </p>
+              </li>
+              <li>
+                <p className="indent pt-2">
+                  Copia textual del documento
+                </p>
+              </li>
+            </ul>
+            <img src="" alt="" />
           </div>
         </section>
       </div>

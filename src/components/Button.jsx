@@ -14,6 +14,15 @@ const Button = ({ id, children, isActive, button, setButton }) => {
     if (e.currentTarget.id === "taller3") {
       setButton({ ...button, name: "taller3" })
     }
+    if (e.currentTarget.id === "taller4") {
+      setButton({ ...button, name: "taller4" })
+    }
+    if (e.currentTarget.id === "taller5") {
+      setButton({ ...button, name: "taller5" })
+    }
+    if (e.currentTarget.id === "taller6") {
+      setButton({ ...button, name: "taller6" })
+    }
   }
 
   return (
