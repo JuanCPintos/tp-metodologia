@@ -102,10 +102,6 @@ const Taller5 = () => {
               </li>
             </ol>
             
-            <p className="text-justify text-xl pt-4 text-[#005BB3]">
-              En este trabajo no utilizamos preguntas abiertas.
-            </p>
-
           </div>
         </section>
       </div>

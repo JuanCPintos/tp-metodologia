@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
+import { useState } from "react"
 import Button from "./Button"
 
 const Hero = ({ button, setButton }) => {
-  const handleDownload = ()=>{
+  const [isHover, setIsHover] = useState(false)
+  const handleDownload = () => {
     const path = "/archivo.pdf"
     const archivo = document.createElement('a');
     archivo.href = path;
@@ -16,7 +18,6 @@ const Hero = ({ button, setButton }) => {
     <>
       <div
         className="w-100 flex flex-row items-center justify-center sm:h-96"
-
       >
         <div className="sm:w-1/2 flex flex-col">
           <div>
@@ -36,9 +37,17 @@ const Hero = ({ button, setButton }) => {
             <button
               className="rounded-md px-2 py-1 roboto-bold bg-transparent border-2 border-[#005BB3] text-[#005BB3] hover:bg-[#005BB3] hover:text-[#F0F0F0]"
               onClick={handleDownload}
-              >
-              <div className="flex flex-row items-center gap-2">
-                <svg src="/download-Icon.svg" className="w-6 h-6 fill-blue-900" alt="Icono descarga"></svg>
+              onMouseOver={()=>setIsHover(true)}
+              onMouseLeave={()=>setIsHover(false)}
+            >
+              <div className="flex flex-row items-center gap-2 hover:fill-white" >
+                <svg
+                  className={`w-6 h-6 ${isHover?"hover:fill-white":"fill-blue-900"}`}
+                  alt="Icono descarga"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24">
+                  <path d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z"></path>
+                </svg>
                 Monografia
               </div>
             </button>
