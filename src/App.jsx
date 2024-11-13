@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div className="w-100 px-4">
+      <div className="w-100 px-4 h-auto">
         <Hero button={selected} setButton={setSelected} />
         {selected.name === "home" &&
           <Home />

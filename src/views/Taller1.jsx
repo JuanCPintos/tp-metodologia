@@ -20,7 +20,7 @@ const Taller1 = () => {
               Técnica por la cual se construye un instrumento que nos permite guardar en forma escrita, de manera económica, sencilla, lo más completa posible, la información que será necesaria y utilizada a lo largo de toda la investigación
             </p>
             <p className="text-justify text-xl indent-6 pt-4 text-[#005BB3]">
-            Clases de fichaje:
+              Clases de fichaje:
             </p>
             <ul className="list-disc w-3/4">
               <li>
@@ -112,7 +112,12 @@ const Taller1 = () => {
                 </p>
               </li>
             </ul>
-            <img src="" alt="" />
+            <div 
+            className="w-[340px] sm:w-3/4"
+            >
+              <p className="pt-3 text-center">Modelo de ficha de nuestro trabajo</p>
+              <img src="/taller1.png" alt="Modelo de ficha" />
+            </div>
           </div>
         </section>
       </div>
