@@ -86,8 +86,7 @@ const Taller3 = () => {
               <li>Editorial o enlace (URL o DOI). ¿Dónde?</li>
             </ul>
             <p className="text-justify indent-6 pt-2">Diario Clarin. (2022, 28 abril). Cómo la tecnología está reconfigurando el mundo del trabajo. <a className="underline text-blue-900 hover:text-blue-600" target="_blank" href="https://www.clarin.com/brandstudio/tecnologia-reconfigurando-mundotrabajo_0_0c57FvKwb0.html?gad_source=1&gclid=Cj0KCQjw_sq2BhCUARIsAlVqmQvhD1nWf1rPhNRBEex9Q3U14dLTXjKfslVfZETdzPE2M28foEHhEUIaAjbKEALW_wcB">https://www.clarin.com/brandstudio/tecnologia-reconfigurando-mundotrabajo</a></p>
-            <p className="text-justify indent-6 pt-2">En asociación con Marsh McLenannan, SK Group y Zurich Insurance Group. (2021). Informe de riesgo globales 2021 16a edición
-            <a target="_blank" className="underline text-blue-900 hover:text-blue-600" href="https://www3.weforum.org/docs/WEF_The_Global_Risks_Report_2021.pdf">https://www3.weforum.org/docs/WEF_The_Global_Risks_Report_2021.pdf</a></p>
+            <p className="text-justify indent-6 pt-2">En asociación con Marsh McLenannan, SK Group y Zurich Insurance Group. (2021). Informe de riesgo globales 2021 16a edición. <a className="underline text-blue-900 hover:text-blue-600 w" target="_blank" href="https://www3.weforum.org/docs/WEF_The_Global_Risks_Report_2021.pdf">https://www3.weforum.org/docs/WEF-The-Global-Risks-Report-2021.pdf</a></p>
 
           </div>
         </section>

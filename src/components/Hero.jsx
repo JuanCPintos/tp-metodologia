@@ -40,7 +40,7 @@ const Hero = ({ button, setButton }) => {
               onMouseOver={()=>setIsHover(true)}
               onMouseLeave={()=>setIsHover(false)}
             >
-              <div className="flex flex-row items-center gap-2 hover:fill-white" >
+              <div className="flex flex-row items-center justify-center gap-2 hover:fill-white" >
                 <svg
                   className={`w-6 h-6 ${isHover?"hover:fill-white":"fill-blue-900"}`}
                   alt="Icono descarga"
