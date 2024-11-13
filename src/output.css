@@ -570,12 +570,24 @@ video {
   height: auto;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-3\/4 {
   width: 75%;
 }
 
 .w-\[340px\] {
   width: 340px;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .list-decimal {
@@ -635,6 +647,10 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.fill-blue-900 {
+  fill: #1e3a8a;
 }
 
 .p-0 {
@@ -801,9 +817,19 @@ body{
   font-style: italic;
 }
 
+.hover\:bg-\[\#005BB3\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 91 179 / var(--tw-bg-opacity));
+}
+
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#F0F0F0\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(240 240 240 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

@@ -1,14 +1,22 @@
 /* eslint-disable react/prop-types */
 import Button from "./Button"
 
-const Hero = ({button, setButton}) => {
-
+const Hero = ({ button, setButton }) => {
+  const handleDownload = ()=>{
+    const path = "/archivo.pdf"
+    const archivo = document.createElement('a');
+    archivo.href = path;
+    archivo.download = 'El Impacto de la digitalización en el mercado laboral Argentino pre y post pandemia (2019-2020).pdf';
+    document.body.appendChild(archivo);
+    archivo.click();
+    document.body.removeChild(archivo);
+  }
 
   return (
     <>
       <div
         className="w-100 flex flex-row items-center justify-center sm:h-96"
-        
+
       >
         <div className="sm:w-1/2 flex flex-col">
           <div>
@@ -25,6 +33,15 @@ const Hero = ({button, setButton}) => {
             <Button id={"taller5"} button={button} setButton={setButton} isActive={button.name === "taller5"}>Taller 5</Button>
             {/* <Button id={"taller6"} button={button} setButton={setButton} isActive={button.name === "taller6"}>Taller 6</Button> */}
             {/* <button className="rounded-md px-2 py-1 roboto-bold bg-[#9C9C9C] text-[#F0F0F0]">Taller 3</button> */}
+            <button
+              className="rounded-md px-2 py-1 roboto-bold bg-transparent border-2 border-[#005BB3] text-[#005BB3] hover:bg-[#005BB3] hover:text-[#F0F0F0]"
+              onClick={handleDownload}
+              >
+              <div className="flex flex-row items-center gap-2">
+                <svg src="/download-Icon.svg" className="w-6 h-6 fill-blue-900" alt="Icono descarga"></svg>
+                Monografia
+              </div>
+            </button>
           </div>
         </div>
         <div className="hidden sm:inline">
