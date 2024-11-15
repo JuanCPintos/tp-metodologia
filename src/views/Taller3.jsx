@@ -42,10 +42,10 @@ const Taller3 = () => {
               Más de 40 palabras: Escribir el texto en un bloque aparte, sin comillas, con una sangría de 1,27 cm desde el margen izquierdo. Hay que asegurarse de indicar la fuente incluyendo el apellido del autor, el año de publicación y la página.
             </p>
             <p className="text-justify text-xl indent-6 pt-4 text-[#005BB3]">
-              Ejemplo de menos de 40 palabras
+              Ejemplo de más de 40 palabras
             </p>
             <p className="text-justify indent-6 pt-2">
-              Según <cite>Molina,M(2022)</cite>, la digitalización se refiere en concreto a "la mejora de procesos, funciones y operaciones comerciales mediante el aprovechamiento de la tecnología en el espacio digital". Busca el procesamiento de la información, la automatización de las opercaiones, procesos y el uso de aplicaciones informáticas.
+              Según <cite>Molina,M(2022)</cite>, la digitalización se refiere en concreto a la mejora de procesos, funciones y operaciones comerciales mediante el aprovechamiento de la tecnología en el espacio digital. Busca el procesamiento de la información, la automatización de las opercaiones, procesos y el uso de aplicaciones informáticas.
             </p>
             <p className="text-justify text-xl indent-6 pt-4 text-[#005BB3]">
               Citas parafraseadas o indirectas

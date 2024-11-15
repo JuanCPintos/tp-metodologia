@@ -83,7 +83,7 @@ const Taller5 = () => {
                 <p>Puesto de trabajo</p>
                 <ol className="list-decimal pl-7">
                   <li>Directivo</li>
-                  <li>Gernete</li>
+                  <li>Gerente</li>
                   <li>Técnico en sistemas</li>
                   <li>Operario</li>
                   <li>Empleado</li>
@@ -95,9 +95,9 @@ const Taller5 = () => {
                 <ol className="list-decimal pl-7">
                   <li>Primario</li>
                   <li>Secundario</li>
-                  <li>Gardo universitario</li>
-                  <li>Tecnicautura</li>
-                  <li>Curso de acutualización en tecnología o digitalización</li>
+                  <li>Grado universitario</li>
+                  <li>Tecnicatura</li>
+                  <li>Curso de actualización en tecnología o digitalización</li>
                 </ol>
               </li>
             </ol>

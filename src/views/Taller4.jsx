@@ -25,7 +25,7 @@ const Taller4 = () => {
             </ol>
             <p className="text-justify indent-6 pt-2">Tipo de enfoque:</p>
             <ol className="list-decimal">
-              <li>Cualiativo</li>
+              <li>Cualitativo</li>
               <li>Cuantitativo</li>
             </ol>
             <p className="text-justify text-xl indent-6 pt-4 text-[#005BB3]">Clasificación de los diseños</p>
